@@ -1,0 +1,47 @@
+/** DEFICIÓN DE LAS CAJAS Y SUS POSICIONES RELATIVAS /**/
+#cajas1 {
+    width: 600px;
+    height: 800px;
+    background-color: rgb(231, 119, 78);
+}
+
+/**SE DEFINE UNA CAJA CON POSICIÓN RELATIVA/**/
+#cajas2 {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(51, 170, 57);
+    position: relative;
+    left: 50px;
+    top: 60px;
+}
+
+/** SE DEFINE UNA CAJA CON POSICIÓN RELATIVA/**/
+#cajas3 {
+    width: 600px;
+    height: 850px;
+    background-color: purple;
+    
+
+}
+
+/** SE DEFINE UNA CAJA CON POSICIÓN ABSOLUTA/**/
+#cajas4 {
+    width: 200px;
+    height: 250px;
+    background-color: RED;
+    position: absolute;
+    left: 150px;
+    top: 250px
+
+}
+
+/** SE DEFINE UNA CAJA CON POSICIÓN FIJA/**/
+#cajas5 {
+    width: 200px;
+    height: 250px;
+    background-color: blue;
+    position: fixed;
+    left: 450px;
+    top: 150px
+
+}
